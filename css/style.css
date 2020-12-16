@@ -1,0 +1,380 @@
+/*Selector Header*/
+.site-header.inicio{
+    background: url(../images/imgHeader2.jpg);
+    height: 100vh;
+    min-height: 10rem;
+    width: 98vw;
+    min-width: 1rem;
+    background-position: center center;
+    background-size: cover; /*Genera espacion ancho y alto guardando proporciones*/
+}
+.site-header{
+    background-color: #0a4e05;
+    padding: 0.2rem 0 2rem 0;
+}
+.mayuscula{
+    text-transform: uppercase;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+html{
+    box-sizing:border-box;
+    font-size: 95%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+/** Start Selectores Globales**/
+.img{
+    max-width:100%;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 2em 0 2rem;
+}
+/** End Selectores Globales **/
+h1 {
+        font-size: 2.5rem
+}
+h2{
+    font-size: 2rem
+}
+h3{
+   font-size: 1.8rem
+}
+h4{
+   font-size: 1.4rem
+}
+/**Star Utilidades**/  
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.fw-300{
+    font-size: 40px;
+}
+.centrar-texto{
+    text-align: center;
+    font-weight: bold;
+}
+/** End Utilidades**/
+.contenido-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.contenido-header h1{
+    color: white;
+    padding-bottom: 2rem;
+    max-width: 60rem;
+   
+}
+
+.barra{
+
+    display: flex;  /*afecta el primer elemento del div o clase*/
+    justify-content: space-between;
+    padding-top: 3rem;
+    align-items: flex-start;
+}
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+
+}
+.navegacion a :last-of-type{  /**Pseudo selector, se ubica en el ultimo elemento de la etiqueta <a>**/
+    margin: 0;
+}
+       
+.navegacion a:hover{
+    color: #04B45f;
+}
+/**icono nostros**/
+.encabezado-nosotros{
+    font-weight: 100% ;
+    justify-content: space-between;
+}
+.icono-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    font-size: cover;
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+    align-items: center;
+}
+.icon img{
+    height: 20rem;
+    width:  20rem;
+   
+}
+.icon h3, .icon p{
+    text-align: center;
+}
+
+.contenedor-anuncio{
+    display:flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+    flex-wrap: wrap;
+    
+}
+.anuncio{
+    flex: 0 0  calc(33.3% - 1rem); 
+    border: 1px solid  #b5b5b5;
+    background-color: #f5f5f5;
+    margin-bottom: 1rem;
+}
+.anuncio img{
+    width: 100%;
+    height: 25rem;
+    /**33.2 rem
+    28.2 rem**/
+}
+
+.contenido-anuncio{
+    padding: 2rem;
+
+}
+
+.precio{
+    color: #EE0E0E;
+    font-weight:700;
+}
+.d-block{
+    display: block!important;
+}
+.boton{
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    display: inline-block;
+    text-align: center;
+
+}
+.boton-naranja{
+    background-color: #04B45f;
+}
+.boton-rojo{
+    background-color: #EE0E0E; 
+}
+.ver-insecticida{
+    display: flex;
+    justify-content: flex-end;
+}
+.icono-producto{
+   
+    padding:0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ver-insecticida{
+    margin:0;
+}
+.icono-exterminio{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 50rem;
+   
+}
+.icono-exterminio li{
+    /**flex: 1;**/
+    display: flex;
+}
+
+.icono-exterminio img{
+    width: 4rem;
+    height: 5rem;
+}  
+.image-hogar{
+    background-image: url(../icon/Contactenos.jpeg);
+    height: 30rem;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+   
+}
+.contenido-hogar{
+    flex: 2
+}
+.contenido-hogar{
+    font-size: 1rem;
+}
+
+/**Seccion Inferior**/
+.seccion-inferior{
+    display: flex;
+    justify-content: space-between;
+}
+.seccion-inferior .blog{
+    flex-basis: 100%;
+}
+.entrada-blog{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.entrada-blog:last-of-type{ /** Pseudo Selector ubica el ultimo elemento **/
+    margin-bottom: 0;
+}
+.entrada-blog .imagen{
+    flex-basis: 70%;
+    padding-right: 2rem;
+}
+.imagen img{
+    border-radius: 3rem;
+}
+.entrada-blog .texto-entrada{
+    flex-basis: calc(60%-3rem);
+}  
+.entrada-blog a{
+    color: #04B45f;
+    text-decoration: none;
+}
+.texto-entrada h4{
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    line-height: 1;
+} 
+.texto-entrada p {
+    margin:0;
+    line-height: 2;
+    font-size: 1rem;  
+    text-align: justify;
+}
+.seccion-inferior .comentarios{
+    flex-basis: calc(100% -2rem);
+}
+.texto-entrada h4::after{
+    margin-top: 1rem;
+    content: '';
+    display: block;
+    width: 20rem;
+    height: 0.5rem;
+    background-color: #0a4e05;
+}
+.span{
+    color:#EE0E0E;
+}
+   
+/**Comentario**/
+.comentario{
+    background-color: #04B45f;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    color: #FFFFFF;
+    border-radius: 2rem;
+    margin-left: 2rem
+}
+
+.comentario p{
+    text-align: right;
+}
+.comentario blockquote::before{
+    content: ´´;
+    background-image: url(../icon/comillas1.png);
+    width: 2rem;
+    height: 3rem;
+    display: block;
+    position: absolute;
+    top: -2rem;
+    left: -3rem;
+}
+
+.site-footer{
+    background-color:  #0a4e05;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+}
+.copyright{
+    text-align: right;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    
+}
+.contenedor-footer{
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Media Query*/
+/* Para Resoluciones Hasta 480ox*/
+@media screen and( max-width:480px){
+
+}
+/*Para Resoluciones Hasta 789px*/
+@media screen and( max-width:780px){
+
+}
+
+/* Paginas Internas*/
+/**nosotros**/
+.contenido-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ 
+
+} 
+.texto-nosotros blockquote{
+    font-weight: 600;
+    margin: 2rem, 0;
+}
+.texto-nosotros p{
+    font-size:1.2rem;
+    text-align: justify;
+}
+/**anuncio**/
+.imagen-producto img{
+   display: block;
+   width: 30rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+.servicios{
+    text-align: center;
+}
+/**Blog**/
+.size img{
+    margin-left: 18rem;
+    border-radius: 1rem;
+}
+.righ{
+    margin-right: 18rem;
+}
+.centro{
+    text-align: center;
+    margin-left: 17rem;
+    margin-right: 17rem;
+}
+/** Contacto**/
+.contenido-centrado form{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    max-width: 20rem;
+    
+}
+label{
+    display: block;
+}
+
+.imgservicios{
+    display: block;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
