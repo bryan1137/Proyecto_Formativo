@@ -1,96 +1,94 @@
 <!DOCTYPE html>
 <html lang="es"> 
+
     <head>
-      <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EXTERMINIO EL ORGINAL</title>
-    <link rel="icon" type="icon"  href="icon/logo.jpeg.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style.css">
-      </head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Exterminio El Original</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="icon" type="icon" href="icon/IconNoplagas.png">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+    </head>
 
     <body>
-     <header class="site-header">
-     <div class="contenedor contenido-header">
-       <div class="barra">
-         <a href="/index.html">
-          <img src="icon/IconExterminios.png" alt="Logo Exterminio" width="140" height="110">
-         </a>
-      <nav class="navegacion">
-        <a href="nosotros.html">Nosotros</a>
-        <a href="anuncios.html">Anuncios</a>
-        <a href="blog.html">Blog</a>
-        <a href="contacto.html">Contacto</a>
-      </nav>
-     </div>
- </div>
-     </header>
-     <h3 class="fw-300 centrar-texto">Contacto De Exterminio</h3>
-     <div class="anuncio">
-     <img src="images/contactenos.jpg" alt="Imagen Entrada Blog"  > 
-    </div>
-      <main class="contenedor seccion contenido-centrado">
-          <h2 class="fw-300 centrar-texto"> Llene El Siguiente Formulario</h2>
-          <form action="">
-            <fieldset>
-              <legend>Información Personal</legend>
-              <label for="nombre">Nombre:</label>
-              <input type="text" id="nombre" placeholder="Digite Su Nombre" required>
-              <label for="email">E-mail:</label>
-              <input type="email" id="email" placeholder="Digite Su E-mail" required> 
-              <label for="telefono">Telefono:</label>
-              <input type="tel" id="telefono" placeholder="Digite Su Telefono"> 
-              <label for="mensaje">Mensaje:</label>
-              <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
-             
-            </fieldset>
-            <fieldset>
-              <legend>Información Del Producto</legend>
-              <label for="opciones"> Vende o Compra</label>
-              <select id="opciones">
-                <option value="" disabled selected>-- Seleccione --</option>
-                <option value="comprar">Compra</option>
-                <option value="vender">Vende</option>
-              </select>
-                <label for="cantidad">Cantidad</label>
-                <input type="number" min="0" max="15">
-            </fieldset>
-            <fieldset>
-              <legend>Contacto</legend>
-              <p>¿Como Desea Ser Contactado?</p>
-              <label for="tel">Telefono</label>
-              <input type="radio" name="contacto" value="telefono" id="tel">
-              <label for="correo">E-mail</label>
-              <input type="radio" name="contacto" value="correo" id="correo">
-              <p>Si eligio telefono, establezca la fecha y hora en que desee ser contactado</p>
-              <label for="feha">Fecha:</label>
-              <input type="date" id="fecha">
-              <label for="hora">Hora:</label>
-              <input type="time"id="hora" >
-            </fieldset>
-            <input type="submit" value="Enviar" class="boton boton-rojo">
+        <header >
+            <div class="site-header">
+              <div class="contenedor contenido-header">
+                <div class="barra">  
+                    <a href="index.html">
+                        <img src="icon/IconExterminios.png" alt="Logo Exterminio" class="logo">
+                    </a>
+                    <nav class="navegacion">
+                        <a href="nosotros.html">Nosotros</a>
+                        <a href="anuncio.html">Anuncio</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="contacto.html">Contacto</a>
+                    </nav>
+                </div>
+              </div>
+            </div>
+            </header>
+        <h1 class="fw-300 centrar-texto">Contacto Exterminio El Original</h1>
+        <img src="" alt="">
+        <main class="contenedor seccion contenido-centrado">
+            <h2 class="fw-300 centrar-texto">Llene el siguiente Formulario de Contacto</h2>
+            <form action="">
+                <fieldset>
+                    <legend>Información Personal</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Digite su Nombre" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Digite su E-mail" required>
+                <label for="Telefono">Telefono:</label>
+                <input type="tel" id="telefono" placeholder="Diite su Teléfono" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Información del Producto</legend>
+                    <label for="options">Vende o Compra</label>
+                    <select name="" id="opciones">
+                        <option value="" disabled selected>--Seleccione--</option>
+                        <option value="Comprar">Compra</option>
+                        <option value="Vender">Vende</option>
+                    </select>
+                    <label for="Cantidad">Cantidad</label>
+                    <input type="number" min="6" max="10">     
+                </fieldset>
+                <fieldset>
+                    <legend>Contacto</legend>
+                    <p>Como desea ser contactado</p>
+                    <label for="tel">Telefono:</label>
+                    <input type="radio" name="contacto" id="tel">
+                    <label for="correo">E-mail</label>
+                    <input type="radio" name="contacto" value="correo" id="correo">
+                    <p>Si eligio telefono, establezca la fecha y hora en que desea ser contactado</p>
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha">
+                    <label for="hora">Hora:</label>
+                    <input type="time" id="hora">
 
-            
-    
-    
+                </fieldset>
+                <input type="submit"  value="Enviar" class="boton boton-verde">
+            </form>
+        </main>
+        <footer class="site-footer">
+            <div class="contenedor contenedor-footer barra">
+                <nav class="navegacion">
+                    <a href="nosotro.html">Nosotros</a>
+                    <a href="anuncio.html">Anuncio</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
 
-          </form>
+                </nav>
+                <p class="copyright">Todos los Derechos de Reservados &copy;</p>
+            </div>
+        </footer>
 
-      </main>
-     
-  
-   <footer class="site-footer">
-     <div class="contenedor contenedor-footer">
-       <nav class="navegacion">
-         <a href="nosotros.html">Nosotros</a>
-         <a href="anuncios.html">Anuncios</a>
-         <a href="blog.html">Blog</a>
-         <a href="contacto.html">Contacto</a>
-       </nav>  
-        
-        <p class="copyright">Todos los Derechos de Reservados &copy;</p>
-      </div>  
-    </footer>
-  
-    </body> 
-  </html>
+    </body>
+
+</html>
